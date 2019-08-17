@@ -1,2 +1,1 @@
-# Learning-C-CPP
-learning C / C++
+# Learning-C-CPP  学习 C 和 C++
