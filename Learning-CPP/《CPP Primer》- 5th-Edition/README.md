@@ -1,5 +1,5 @@
 ## C++ Primer 中文第5版 
-- Cpp_Primer_Answers-master 文件夹: 为 Github 下载的中文第5版的习题答案
+- Cpp_Primer_Answers-master 文件夹: 为中文第5版的习题答案
 
 
 - 我们编写的程序主要是由 2 个主要方面组成:
