@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 // - 2.1.2 类型转换 (带符号类型 —— 无符号类型)
 int main() {
@@ -32,6 +33,16 @@ int main() {
 
     signed char c2 = 256;
     std::cout << "signed char c2:" << c2 << std::endl;
+
+
+    // ---------
+    char aa = 'a';
+    std::cout << "aa:" << aa << std::endl;
+    // aa:a
+    std::string str = "Hello World!";
+    // string str:Hello World!
+    std::cout << "string str:" << str << std::endl;
+
 
     return 0;
 }
