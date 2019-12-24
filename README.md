@@ -15,7 +15,7 @@
 ### Clang 是什么？
 - Clang 是一个 C、C++、Objective-C 和 Objective-C++ 程式語言的编译器前端
 
-### Mac 下配置 VSCode 编写 C/C++ 运行环境
+### Mac 下配置 VSCode 编写 C/C++ 运行环境 (Note: 配置一大堆, 还是不如 Clion 好用)
 > [参考文章](https://blog.csdn.net/mahfaeraak/article/details/82111226)
 - 首先检查机器上是否安装了 C++ 编辑器， 主要是 g++/clang，如果没安装自行安装，控制台查看
   安装与否的代码:
