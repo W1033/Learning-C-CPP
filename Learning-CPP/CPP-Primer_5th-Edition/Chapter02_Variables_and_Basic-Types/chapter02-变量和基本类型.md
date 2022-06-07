@@ -17,7 +17,7 @@
 
 ## 前置知识:
 - 1byte(字节) = 8 bit(比特/位)
-- 1 word(字) = 4/8 byte(字节) = 32/64 bite(比特)
+- 1 word(字) = 4/8 byte(字节) = 32/64 bit(比特)
 
 - **Note: C/C++ 中 string 与 char 的区别**
     + 在 C 语言中:
@@ -66,7 +66,7 @@
   字符集服务 (Unicode 是用于表示所有自然语言中字符的标准。) 
 - *内置类型的机器实现*
     + **计算机以比特序列存储数据，每个比特(bit) 非 0 即 1**，例如:
-        
+      
         - 000110110111100010110010000111011...
     + 大多数计算机以 2 的整数次幂个比特(bit) 作为块来处理内存，可寻址的最小内存块称为 
       "字节 (byte)"，存储的基本单元称为 "字(word)", 它通常由几个字节组成。在 C++ 语言
@@ -138,21 +138,21 @@
     // - 当我们把一个非布尔类型的算术值赋给布尔类型时，初始值为 0 则结果
     //   是 false, 否则结果为 true
     std::cout << "b: " << b << std::endl;   // b: true
-
+  
     // - 当我们把一个布尔值赋值给非布尔值时，初始值为 false 则结果为 0
     //   ，初始值为 true 则结果为 1.
     int i = b;
     std::cout << "i first:" << i << std::endl;  // i first:1
-
+  
     i = 3.14;   // - i 的值为 3
     // i:3
     std::cout << "i:" << i << std::endl;
-
+  
     double pi = i;  // - pi 的值是 3.0
     // - 当把一个整数值赋值给浮点类型时，小数部分记为 0。如果该整数所占的空间
     //   超过了浮点类型的容量，精度可能有损失。
     std::cout << "double pi:" << i << std::endl;
-
+  
     // - 当我们赋值给无符号类型一个超出它表示范围的值时，结果是 "初始值对无符号
     //   类型表示数值总数取模后的余数。" (Q: 如何取模？)
     // - 例如: 8 bit 大小的 unsigned char 可以表示为 0 - 255 区间的值，如果
@@ -160,7 +160,7 @@
     //   此，把 -1 赋给 8 比特大小的 unsigned char 所得到的结果是 255.
     unsigned char c = -1;
     std::cout << "unsigned char c:" << c << std::endl;
-
+  
     signed char c2 = 256;
     std::cout << "signed char c2:" << c2 << std::endl;
   ```
@@ -173,7 +173,7 @@
     std::cout << i + i << std::endl;
     // - 如果 int 占 32 为，输入 4294967264
     std::cout << u + i << std::endl;
-
+  
     // - 当从无符号数 中减去一个值时，不管这个值是不是无符号数，我们都必须确保结果不能是
     //   一个负数:
     unsigned u1 = 42, u2 = 10;
@@ -204,7 +204,7 @@
     // - 字符字面值
     char aa = 'a';
     std::cout << "aa:" << aa << std::endl;  // aa:a
-
+  
     // - 字符串字面值
     std::string str = "Hello World!";
     // string str:Hello World!
