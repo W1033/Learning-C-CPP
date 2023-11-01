@@ -2,11 +2,11 @@
 
 [![Rocky0429](readme.assets/v2-facde048fee8eced408c6ab59aefd1f8_xs.jpg)](https://www.zhihu.com/people/li-yan-29-40)
 
-[Rocky0429](https://www.zhihu.com/people/li-yan-29-40)[](https://www.zhihu.com/question/48510028)![img](readme.assets/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg)
+[Rocky0429](https://www.zhihu.com/people/li-yan-29-40)[](https://www.zhihu.com/question/48510028)
 
 华东师范大学 软件工程硕士
 
-98 人赞同了该文章
+
 
 大家好，我是 Rocky0429。
 
